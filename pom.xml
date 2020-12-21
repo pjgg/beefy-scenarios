@@ -26,6 +26,7 @@
       <module>201-large-static-content</module>
       <module>300-quarkus-vertx-webClient</module>
       <module>301-quarkus-vertx-kafka</module>
+      <module>302-quarkus-vertx-httpServer</module>
       <module>601-spring-data-primitive-types</module>
   </modules>
 
@@ -39,6 +40,7 @@
     <surefire-plugin.version>2.22.1</surefire-plugin.version>
     <testcontainers.version>1.15.0</testcontainers.version>
     <strimzi.testcontainers.version>0.20.0</strimzi.testcontainers.version>
+    <vertx.version>3.9.5</vertx.version>
     <wiremock.version>2.27.2</wiremock.version>
     <apicurio-registry-utils-serde.version>1.2.2.Final</apicurio-registry-utils-serde.version>
     <confluent.kafka-avro-serializer.version>6.0.0</confluent.kafka-avro-serializer.version>
